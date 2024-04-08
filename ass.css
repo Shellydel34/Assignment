@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(2, 43, 43);
+    color: white;
+    border: 1px;
+    font-size: medium;
+    font-style: oblique;
+}
+a {
+    color: yellowgreen;
+}
+
+dt {
+    color: rgb(233, 27, 27);
+    font-size: xx-large;
+}
+
+h1{
+    text-align: center;
+    color-scheme: 22;
+    color: wheat;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+  img {
+    width: 1000px;
+    height: 300px;
+  }
+
+h4{
+    text-align: center;
+    color-scheme: 22;
+    color:brown ;
+    font-size: xx-large;
+}
+
+html {
+    font-size: 22px;
+}
+
+legend {
+    color: white;
+}
+
+fieldset {
+    color: rgb(122, 122, 194);
+}
+
+h2 {
+    color: brown;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: wheat;
+}
+
+ul {
+    color: wheat;
+    font-size: large;
+}
+
+.text {
+    text-align: center;
+    font-size: xx-large;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: wheat;
+    font-size: large;
+}
+
+#text-box {
+    width: 400px;
+    height: 40px;
+    border: 6px solid grey;
+    padding: 10px;
+}
+
+#p2 {
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+pre {
+    font-size: xx-large;
+    color: blanchedalmond;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
+}
+style {
+    text-align: left;
+    font-size: xx-large;
+}
+
+
+

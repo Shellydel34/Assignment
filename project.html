@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This page contains all the things I learn't on Git">
+        <title>My project</title>
+        <link rel="icon" href="https://th.bing.com/th/id/OIP.oXeiG3SVuXZKCU3ceTHGTwHaHa?w=181&h=180&c=7&r=0&o=5&pid=1.7" type="image/x-icon">
+        <link rel="stylesheet" href="ass.css" type="text/css">
+    </head>
+<body>
+    <hr size="4" noshade="0">
+    <h1>A Guide Page On Git and Vscode</h1>
+    <hr size="4" noshade="0">
+    <br>
+    <nav id="style">
+        <ul>
+            <li>
+                <a href="#Git">What is Git</a>
+            </li>
+            <li>
+                <a href="#Vscode">What is Vscode</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="Git">
+    <h2>What is Git</h2>  
+    <p id="p">Git is a version control system.It is good for tracking code changes and manages projects with repositories.</p>
+   <hr size="2" noshade="0">
+   <h2>Steps to take to have a functional Git</h2>
+   <dl>
+    <dt><b>Install Git</b>:</dt>
+    <dd>For windows download <b><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">gitbash</a> </b>from your web browser and install.<br></dd>
+                  
+    <dt><b>Configure Git</b>:</dt>
+    <dd>Let git know who you are by using <b>git config --global user.name "your user name"</b>to set your user name global for every repo and also use <b>git config --global user.email "your email"</b>to set your email global for every repo.<br></dd>
+
+    <dt><b>Create a github account</b>:</dt>
+    <dd>Search <a href="https://github.com/join" target="_blank" rel="noopener">github.com</a>github.com on your browser and create an account by inputing the required things and verify your email to complete the process.After that,name your repo,input a descriptionabout your repo,click on the README option and under the licence option click on MIT licence and create.<br></dd>
+    <!--Github isn't the same as Git.Github makes the tools that use Git.-->
+
+    <dt><b>Clone your repo with gitbash</b>:</dt>
+    <dd>copy the <b>url</b>on your repo and paste it on your gitbash after typing the clone command "git clone URL"<br></dd>
+
+    <dt><b>Clone your repo with Gitbash</b>:</dt>
+    <dd>Create a folder on VScode using <a href="about.html" target="_blank">html</a> and name it after your repo.Under that folder right click to craete a file and name it <em>index.html</em><br></dd>
+
+    <dt><b>Initialize Git</b></dt>
+    <dd>Set git on the folder by using the init command.<br></dd>
+       
+ </dl>
+  
+ <div>
+    <h3><strong>Git have commands that manages projects with repositories and track code changes. <em>An image of some basic git commands will be shown below</em></strong>.</h3>
+ <img src="https://i.ytimg.com/vi/T8Ds409jQLM/hqdefault.jpg" alt="Common Git Commands">
+ </div>
+   <h2><strong>Explanations</strong></h2>
+   <hr> 
+ <dl>
+    <dt><b>Git Commit</b>:</dt> 
+    <dd><em>(git commit -m "A message")</em>commits keep track of our progress and changes.When we commit, we should always put a message because it helps us to see what has been changed and when.<br></dd> <!--we can also commit and stage at the same time by adding "-s" to our commit command.-->
+    <dt><b>Git Add</b>:</dt>
+    <dd><em>(git add .)</em>It adds all modified and new files in the current directory.<br></dd>
+    <dt><b>Git Push</b></dt>
+    <dd><em>(git push)</em> It pushes local commit to a remote repository. <br></dd>
+    <dt><b>git clone</b></dt>
+    <dd><em>(git clone url)</em> It creates a local copy of a remote repository.<br> </dd>
+    <dt><b>Git Pull</b></dt>
+    <dd><em>(git pull -u origin)</em> Fetches changes from a remote repository and merges them into the current barnch.<br></dd>
+    <dt><b>Git Log</b></dt>
+    <dd><em>(git commit log)</em> It displays commit history or history of other git commands.<br></dd>
+    <dt><b>Git Remote</b></dt>
+    <dd><em>(git remote -v)</em> It lists remote repositories associated with your local repo.<br></dd>
+    <dt><b>Git Status</b></dt>
+    <dd><em>(git status)</em> It shows the status of your working directory and staged changes.<br></dd>
+    <dt><b>Git Diff</b></dt>
+    <dd><em>(git diff)</em>It shows diff of what is changed but not staged.<br></dd>
+    <dt><b>Git Init</b></dt>
+    <dd><em>(git init)</em>It initiates git to a folder or file.<br></dd>
+ </dl> 
+ <hr> 
+ <h2><b>Exercise</b></h2>
+ <form>
+    <fieldset>
+        <legend>Which command creates a local copy of a remote repo?</legend>
+            <label>
+                <input type="checkbox" name="git questions" value="Commit">Commit
+            </label> 
+            <label>
+                <input type="checkbox" name="git questions" value="Clone">Clone
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Diff">Diff
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Init">Init
+            </label>
+        <legend>Which command collects the latest version of a project to a local copy?</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="Commit">Commit
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Remote">Remote
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="checkout -b">Checkout -b
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Pull">Pull
+            </label>
+        <legend>Which command pushes local updates to the main project?</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="Merge">Merge
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Push">push
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Add .">Add .
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Status">Status
+            </label>
+        <legend>what command shows the history of a commit?</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="Status">Status
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Cloud">Cloud
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Help">Help
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="Log">Log
+            </label>
+        <legend>Github makes tools that uses git</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="True">True
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="False">False
+            </label>
+        <legend>Git provides access to the internet</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="True">True
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="False">False
+            </label>
+        <legend>Git is the internet of all things</legend>
+            <label>
+            <input type="checkbox" name="git questions" value="True">True
+            </label>
+            <label>
+                <input type="checkbox" name="git questions" value="False">False
+            </label>
+    </fieldset>
+ </form>
+
+    </section>
+
+    <hr size="2" noshade="0">
+
+    <section id="Vscode">
+     <h2>What is Vscode</h2>
+        <p>Visual studio code is a code editor redefined for building and debugging modern web and cloud applications.</p>
+     <hr> 
+     <h2>Steps to take to have a functional vsc</h2>
+
+     <dl>
+        <dt><a href="https://www.bing.com/ck/a?!&&p=c59565b548ad4d13JmltdHM9MTcxMjE4ODgwMCZpZ3VpZD0xMmQ2N2JmZS0zOTVkLTZkMjMtMWM2Ny02ZmIwMzhmNzZjNzcmaW5zaWQ9NTIwMg&ptn=3&ver=2&hsh=3&fclid=12d67bfe-395d-6d23-1c67-6fb038f76c77&psq=vsc+download&u=a1aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20vZG93bmxvYWQ&ntb=1" target="_blank" rel="noopener">Install Vsc</a></dt>
+        <dd>use your prefered browser, search for vsc and download.</dd>
+  
+        <dt>Install Extensions</dt>
+        <dd>Extensions let you add languages,debuggers,and tools to your installation to support your development workflow.<b>click on the settings option on the left hand corner of your vscode,you will see an extension option. Tap on it and download the necessary extensions needed.</b></dd>
+     </dl>
+     <h2>List of vsc extensions</h2>
+     <list>
+        <ul>
+            <li>live server</li>
+            <li>prettier</li>
+            <li>auto rename tag</li>
+            <li>tabnine</li>
+            <li>auto complete tag</li>
+            <li>auto close tag</li>
+            <li>color highlights</li>
+            <li>css-auto-prefix</li>
+            <li>github codespaces</li>
+            <li>github pull request </li>
+            <li>github repos</li>
+            <li>live preview </li>
+            <li>remote repo</li>
+            <li>vscode-icons</li>
+          </ul>  
+     </list>
+     <nav id="text">
+        <a href="https://youtu.be/1UyQaR8pvjk" target="_blank" rel="noopener">Vsc Extensions</a> 
+     </nav>
+    </section>
+    <hr style="color: black;" noshade="0" size="2">
+
+    <section id="End message">
+      
+        <p id="p2">This will be the end of learning the basics of git, github and Vsc. To ask questions, you can reach me via my email down below or fill in the necessary informations and leave a comment which will be reviewd in the next 24hrs of commenting. I hope you enjoyed this section and we will be glad to see more from you.</p>  
+    </section>
+     
+  <hr size="6" noshade="0">
+  <br>
+  <list>
+    <ul>
+      <li>
+        <a href="mailto:michelleugonma.3@gmail.com">Email</a>.
+      </li>
+      <li>
+        <a href="tel:+23347018802836">Dail line</a>.
+      </li>
+      </ul>
+    </list>
+    <br>
+  <pre>Comment Section</pre>
+
+  <section id="Form and Comment box">
+    <form>
+            Name: <input type="text" name="name"><br><br>
+            Email: <input type="text" name="email"><br><br>
+            Comment: <textarea name="comments" rows="5" cols="40">Say something based on what you learnt or add more information</textarea><br><br>
+        <div id="text-box"> 
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="other">Other
+        </div>
+            <br><br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+  </section>
+</body>
+</html>
